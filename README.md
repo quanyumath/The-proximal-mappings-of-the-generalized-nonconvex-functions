@@ -15,3 +15,6 @@ We list five of them as follows. Here we only consider the case $x > 0$.
   - Capped MCP: $\psi^{\text{CapMCP}}\left(x\right)=\min\left\lbrace1, \frac{2\alpha}{\nu(2\alpha-\nu)} \psi^{\text{MCP}}(x)\right\rbrace, ~0<\nu<\alpha$;
   - Capped Logarithm: $\psi^{\text{CapLog}}\left(x\right)=\min\left\lbrace1,\frac{1}{\psi^{\text{Log}}(v)}\psi^{\text{Log}}(x)\right\rbrace.$
 
+
+注意：prox_tnn_psi.m 和 Psi.m 中 \psi 的参数 nv, p, alpha, theta 需要保持一致
+
